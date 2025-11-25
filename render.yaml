@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: delight-app
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn mypro.wsgi"
