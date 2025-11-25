@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-h0!wm7od+t@_-$txqs-#*-(e661b-!got)7+2rpr3hdwhkzr#&
 DEBUG = True
 
 ALLOWED_HOSTS = [
-  'delight-24wr.onrender.com',
+ 'delight-24wr.onrender.com'
 ]
 
 
@@ -132,5 +132,6 @@ MEDIA_ROOT=BASE_DIR/'media'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
