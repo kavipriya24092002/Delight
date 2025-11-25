@@ -1,0 +1,40 @@
+/*color
+coco-#4a2c21;
+creme- #f2e6dc;
+light coffee beige-#e6d0b8
+soft coco tan-#d2b48c
+pastel pink cream-#ff7d8d0
+ */
+
+.bg-red{
+  background-color: #4a2c21;
+}
+
+.bg-bule{
+    background-color: #f2e6dc;
+}
+/* card */
+.card:hover{
+  border-color: #4a2c21;
+}
+.bg-coco{
+  background-color:#e6d0b8;
+}
+.bg-tan{
+  background-color: #d2b48c;
+}
+.navbar{
+    position: sticky !important;
+    top: 0;
+    z-index: 5;
+}
+.contact-info{
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.nav-item.dropdown:hover .dropdown-menu{
+  display: block;
+}
